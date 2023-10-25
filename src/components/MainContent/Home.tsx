@@ -97,7 +97,7 @@ const Home = (props: Props) => {
       </div>
       <div className="flex flex-col gap-8 flex-auto w-[70%] items-center justify-center">
         <div className="flex flex-col gap-8 w-[50%]">
-          <p className="text-5xl text-center text-orange-600 font-medium tracking-wide">
+          <p className="text-5xl text-orange-600 font-medium tracking-wide">
             <span className={`text-${isWhite ? "white" : "orange-900"}`}>
               -
             </span>

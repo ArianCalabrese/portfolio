@@ -46,12 +46,12 @@ const Header = (props: Props) => {
             : "fixed w-full top-0 left-0 z-10 transition-all duration-300 ease-linear overflow-hidden bg-orange-600"
         }
       >
-        <ul className="relative grid grid-cols-6 gap-4 px-10 rounded-xl mx-32 bg-orange-600">
+        <ul className="relative grid grid-cols-6 px-10 rounded-xl mx-32 bg-orange-600">
           {headerData.map((item, index) => (
             <li key={index}>
-              <button className="flex items-center hover:bg-orange-300 hover:shadow-inner hover:shadow-neutral-500 rounded-md p-4">
+              <button className="flex justify-evenly items-center hover:bg-orange-400 hover:shadow-inner hover:shadow-neutral-500 rounded-md p-4 w-full">
                 <Image src={item.icon} alt={item.name} width={32} />
-                <p className="text-xl">{item.name}</p>
+                <p className="text-xl font-semibold text-white">{item.name}</p>
               </button>
             </li>
           ))}
