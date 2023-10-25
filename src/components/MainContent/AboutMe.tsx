@@ -10,7 +10,7 @@ import React from "react";
 
 type Props = {};
 
-const Home = (props: Props) => {
+const AboutMe = (props: Props) => {
   const [isWhite, setIsWhite] = useState(true);
 
   useEffect(() => {
@@ -122,4 +122,4 @@ const Home = (props: Props) => {
   );
 };
 
-export default Home;
+export default AboutMe;
