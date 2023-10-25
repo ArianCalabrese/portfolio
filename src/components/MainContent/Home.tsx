@@ -24,9 +24,9 @@ const Home = (props: Props) => {
   const handleDownloadPDF = () => {
     console.log("Download PDF");
   };
-  
+
   return (
-    <div className="flex gap-4 h-full py-36">
+    <div className="flex gap-4 h-full py-16">
       <div className="flex flex-col flex-auto w-[20%] gap-4">
         <div className="rounded-xl w-96 mx-auto">
           <img

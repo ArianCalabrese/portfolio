@@ -1,5 +1,4 @@
 
-
 export const headerData = [
   { name: "Home" },
   { name: "About me" },
