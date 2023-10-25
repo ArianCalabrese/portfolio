@@ -21,10 +21,10 @@ const headerData = [
 const Header = (props: Props) => {
   return (
     <header>
-      <nav className="absolute w-full my-10 rounded-lg">
-        <ul className="relative grid grid-cols-6 gap-4 px-10 rounded-lg mx-32 bg-orange-600">
+      <nav className="absolute w-full my-10 rounded-xl">
+        <ul className="relative grid grid-cols-6 gap-4 px-10 rounded-xl mx-32 bg-orange-600">
           {headerData.map((item, index) => (
-            <li>
+            <li key={index}>
               <button className="flex items-center hover:bg-orange-300 hover:shadow-inner hover:shadow-neutral-500 rounded-md p-4">
                 <Image src={item.icon} alt={item.name} width={32} />
                 <p className="text-xl">{item.name}</p>
