@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
+import Skills from "./Skills";
 
 type Props = {};
 
@@ -10,6 +11,7 @@ const MainContent = (props: Props) => {
       <div className="relative mx-8">
         <Home />
         <AboutMe />
+        <Skills />
       </div>
     </main>
   );

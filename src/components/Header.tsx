@@ -10,11 +10,11 @@ import Image from "next/image";
 type Props = {};
 
 const headerData = [
-  { icon: home, name: "Home" },
-  { icon: user, name: "About me" },
-  { icon: skill, name: "Skills" },
-  { icon: certification, name: "Certifications" },
-  { icon: portfolio, name: "Portfolio" },
+  { icon: home, name: "Inicio" },
+  { icon: user, name: "Sobre mi" },
+  { icon: skill, name: "Habilidades" },
+  { icon: certification, name: "Certificados" },
+  { icon: portfolio, name: "Portafolio" },
   { icon: social, name: "Social" },
 ];
 

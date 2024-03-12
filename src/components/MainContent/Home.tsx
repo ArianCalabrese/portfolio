@@ -25,8 +25,10 @@ const Home = (props: Props) => {
     console.log("Download PDF");
   };
 
+  //Add rounded div on the right bottom corner of the main div as background effect, with color orange-600
   return (
-    <div className="flex gap-4 h-full py-16">
+    <div className="flex gap-4 h-full py-16 relative overflow-hidden bottom-0">
+      <div className="w-[720px] h-[720px] border-[3px] border-orange-600 rounded-full absolute -z-10 -right-[200px] -bottom-40 -m-40"></div>
       <div className="flex flex-col flex-auto w-[20%] gap-4">
         <div className="rounded-xl w-96 mx-auto">
           <img
