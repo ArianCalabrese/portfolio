@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Skills from "./Skills";
+import Education from "./Education";
 
 type Props = {};
 
@@ -10,8 +9,7 @@ const MainContent = (props: Props) => {
     <main className="absolute my-32 w-full">
       <div className="relative mx-8">
         <Home />
-        <AboutMe />
-        <Skills />
+        <Education />
       </div>
     </main>
   );

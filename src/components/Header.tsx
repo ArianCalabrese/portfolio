@@ -11,11 +11,10 @@ type Props = {};
 
 const headerData = [
   { icon: home, name: "Inicio" },
-  { icon: user, name: "Sobre mi" },
-  { icon: skill, name: "Habilidades" },
-  { icon: certification, name: "Certificados" },
+  { icon: certification, name: "Educación" },
+  { icon: portfolio, name: "Experiencia" },
   { icon: portfolio, name: "Portafolio" },
-  { icon: social, name: "Social" },
+  { icon: social, name: "Contacto" },
 ];
 
 const Header = (props: Props) => {
@@ -49,7 +48,7 @@ const Header = (props: Props) => {
         <ul className="relative grid grid-cols-6 px-10 rounded-xl mx-32 bg-orange-600">
           {headerData.map((item, index) => (
             <li key={index}>
-              <button className="flex justify-evenly items-center hover:bg-orange-400 hover:shadow-inner hover:shadow-neutral-500 rounded-md p-4 w-full">
+              <button className="flex justify-evenly items-center hover:bg-orange-400 rounded-md p-4 w-full">
                 <Image src={item.icon} alt={item.name} width={32} />
                 <p className="text-xl font-semibold text-white">{item.name}</p>
               </button>
